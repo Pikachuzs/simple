@@ -1,10 +1,5 @@
 
-if game.PlaceId == 6284583030 or game.PlaceId == 7722306047 then
-    repeat wait() until game:GetService("Players")
-    repeat wait() until game:GetService("Players").LocalPlayer
-    repeat wait() until game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"):WaitForChild("Loading"):WaitForChild("Black").BackgroundTransparency == 1
-    repeat wait() until game:GetService("Players").LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
-    
+
 local YourWebHookHere =  _G.Webhook  -- web hook here
 local http = game:GetService("HttpService")
 local url = YourWebHookHere
